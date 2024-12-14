@@ -1,0 +1,38 @@
+header{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: -20px;
+}
+
+header ul li::before {
+    content: "\25AA";  
+    color: blue; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+header ul{
+    list-style-type: none;
+}
+
+section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+section img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section p{
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
